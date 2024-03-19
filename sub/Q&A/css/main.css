@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+.inner {
+  width: 1400px;
+  margin: 0 auto;
+}
+#main_visual .main_txt {
+  text-align: center;
+  color: #fff;
+}
+
+#main_visual .main_txt p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#main_visual .main_txt p span {
+  color: #ccc;
+  font-weight: 600;
+}
+
+#main_visual .main_txt h1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+#main_visual nav {
+  display: flex;
+  background: rgba(51, 51, 51, 0.8);
+  height: 100px;
+  align-items: center;
+}
+
+#main_visual nav .menu_sec {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+}
+
+#main_visual .menu_ba {
+  background: url(../images/Vector\ 2.png) no-repeat bottom 35px right 30px
+    rgba(102, 102, 102, 0.8);
+  text-align: center;
+}
+
+.depth2_ba {
+  background: rgba(153, 153, 153, 0.8);
+  text-align: center;
+}
+
+#main_visual .menu_ba,
+.depth2_ba {
+  padding: 30px 0;
+  width: 250px;
+  font-size: 30px;
+  font-weight: 600;
+}
+#board .inner {
+  padding: 300px 0;
+  width: 1200px;
+}
+#board h3 {
+  font-size: 20px;
+}
+#board .inner {
+  margin: 0 auto;
+}
+#board table {
+  margin: 0 auto;
+}
+#board tr {
+  border-bottom: 1px solid #000;
+}
