@@ -1,12 +1,8 @@
-- 👋 Hi, I’m @XII1071
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<!---
-XII1071/XII1071 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+뉴비입니다.
+<h1>Skills</h1>
+<div><img src="https://img.shields.io/badge/Html5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/figma-F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" /></div>
+  <img src="https://img.shields.io/badge/figma-abd2ff.svg?style=for-the-badge&logo=figma&logoColor=white" /></div>
+<h2>learn</h2>
+<div><img src="https://img.shields.io/badge/React-31A8FF?logo=react&logoColor=white&style=for-the-badge" /> <img src="https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black" /> <img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=black" /></div>
+<div></div>
