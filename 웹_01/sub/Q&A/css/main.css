@@ -1,4 +1,4 @@
-@charset "utf-8";
+    @charset "utf-8";
 
 .inner {
   width: 1400px;
@@ -53,8 +53,29 @@
   padding: 30px 0;
   width: 250px;
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 600;
+}
+#board .inner {
+  padding: 300px 0;
+  width: 1200px;
 }
 #board h3 {
   font-size: 20px;
+}
+#board .inner {
+  margin: 0 auto;
+}
+#board table {
+  margin: 0 auto;
+}
+#board table {
+  border: 1px solid #000;
+}
+#board tr:nth-child(1) {
+  background: #999;
+}
+#board th,
+td {
+  padding: 20px 35px;
+  border-bottom: 1px solid #000;
 }
