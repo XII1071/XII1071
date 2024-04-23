@@ -1,5 +1,7 @@
 <h1>About me</h1>
 뉴비입니다.
+<h3>Program</h3>
+<div><img src="https://img.shields.io/badge/vscode-007ACC.svg?style=for-the-badge&logo=visualstudiocode&logoColor=white" /></div>
 <h1>Skills</h1>
 <div><img src="https://img.shields.io/badge/Html5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/figma-abd2ff.svg?style=for-the-badge&logo=figma&logoColor=white" /></div>
 <h2>learn</h2>
