@@ -1,7 +1,7 @@
 <h1>About me</h1>
 뉴비입니다.
 <h3>Program</h3>
-<div><img src="https://img.shields.io/badge/vscode-007ACC.svg?style=for-the-badge&logo=visualstudiocode&logoColor=white" /> <img src="https://img.shields.io/badge/Notepad++-90E59A.svg?style=for-the-badge&logo=notepad%2b%2b&logoColor=black"></div>
+<div><img src="https://img.shields.io/badge/vscode-007ACC.svg?style=for-the-badge&logo=visualstudiocode&logoColor=white" /> <img src="https://img.shields.io/badge/Notepad++-339933.svg?style=for-the-badge&logo=notepad%2b%2b&logoColor=white"></div>
 <br>
 <img src="https://github-readme-stats.vercel.app/api?username=XII1071&show_icons=true&theme=ambient_gradient">
 <h1>Skills</h1>
