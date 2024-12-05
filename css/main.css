@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrap {
+  width: 100vw;
+}
+
+.inner {
+  width: 100%;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Noto sans KR", sans-serif;
+  color: #fff;
+  background: #333;
+}
+
+#header {
+  background: url(../images/header.png) no-repeat;
+  height: 1040px;
+}
+
+#header .gnb {
+  display: flex;
+  height: 120px;
+  justify-content: space-between;
+}
+#header .left_logo {
+  padding: 15px 100px;
+}
+#header .menu_logo {
+  padding: 30px 50px 0 0;
+}
+
+@media (max-width: 1024px) {
+  #header {
+    width: 100%;
+  }
+}
+
+/* main_visual */
+
+#main_visual .spon {
+  background: #e71f1f;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 50px 20px;
+}
+.js-marquee-wrapper {
+  display: flex;
+}
+
+.js-marquee {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+/* 선수슬라이드 */
+#player {
+  padding: 100px 0;
+  align-items: center;
+}
+#player .inner h2 {
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.player_list {
+  width: 100%;
+  max-width: 1700px;
+  padding-bottom: 20px;
+}
+.player_list .swiper-slide {
+  transform: scale(0.8, 0.8);
+  transition: all 0.5s;
+} /* 가운데를 제외한  나머지를 줄이기!*/
+.player_list .swiper-slide-active {
+  transform: scale(1, 1);
+} /* 가운데 크기를 기본으로 설정 */
+.player_list .swiper-slide .name {
+  line-height: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  background: #999;
+  height: 50px;
+}
+.swiper-slide .name p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.player_list .swiper-slide .name p img {
+  display: block;
+}
+.player_list .swiper-slide .name h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.player_list .swiper-slide .profile img {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  #player .inner {
+    width: 950px;
+  }
+
+  .player_list .swiper-slide .name {
+    height: 40px;
+    padding: 0 5px;
+  }
+  .player_list .swiper-slide .name p {
+    font-size: 12px;
+  }
+  .player_list .swiper-slide .name img {
+    width: calc(40px / 1.875);
+  }
+  .player_list .swiper-slide .name h3 {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .player_list .swiper-slide .name img {
+    width: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  #player .inner {
+    width: 600px;
+  }
+  .player_list .swiper-slide .name {
+    height: 25px;
+    padding: 0 5px;
+  }
+  .player_list .swiper-slide .name p {
+    font-size: 8px;
+  }
+  .player_list .swiper-slide .name img {
+    width: calc(40px / 1.875);
+  }
+  .player_list .swiper-slide .name h3 {
+    font-size: 8px;
+    font-weight: 500;
+  }
+  .player_list .swiper-slide .name img {
+    width: 20px;
+  }
+}
+
+/* item */
+
+#item {
+  background: #fff;
+}
+#item h5 {
+  font-weight: 500;
+  text-align: center;
+  font-size: 50px;
+  color: #000;
+  padding-top: 160px;
+}
+#item h5 span {
+  font-size: 70px;
+  font-weight: 600;
+  color: #f00;
+}
+#item .inner {
+  display: flex;
+  gap: 100px;
+  padding: 80px 0 155px;
+}
+
+@media (max-width: 1024px) {
+  #item .inner {
+    justify-content: center;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
+#content .inner img {
+  width: 500px;
+  position: relative;
+}
+#content .inner {
+  padding: 200px 0;
+  gap: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 1024px) {
+  #content .inner {
+    justify-content: center;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}

@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+#header {
+  background: #000;
+  height: 120px;
+}
+
+#header .gnb {
+  display: flex;
+  height: 120px;
+  padding: 0 50px 0 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inner {
+  margin: 0 auto;
+}
+
+#main_visual {
+  background: url(../images/main_visual.png) no-repeat center rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 580px;
+  z-index: 2;
+}
+#main_visual .main_txt {
+  text-align: center;
+  color: #fff;
+  padding-top: 170px;
+}
+#main_visual .main_txt p {
+  font-size: 30px;
+  font-weight: 600;
+}
+#main_visual .main_txt p span {
+  color: #ccc;
+  font-weight: 600;
+}
+#main_visual .main_txt h1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+#main_visual nav {
+  margin-top: 310px;
+  display: flex;
+  background: rgba(51, 51, 51, 0.8);
+  height: 100px;
+  align-items: center;
+}
+#main_visual nav .menu_sec {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+}
+#main_visual .menu_ba {
+  background: url(../images/Vector\ 2.png) no-repeat bottom 35px right 30px
+    rgba(102, 102, 102, 0.8);
+  text-align: center;
+}
+.depth2_ba {
+  background: rgba(153, 153, 153, 0.8);
+  text-align: center;
+}
+
+#main_visual .menu_ba,
+.depth2_ba {
+  padding: 30px 0;
+  width: 250px;
+  font-size: 30px;
+  font-weight: 600;
+}
+#gallery {
+  background: #ddd;
+}
+
+#gallery .inner {
+  width: 90%;
+  margin: 0 auto;
+}
+#gallery .gallery_01 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+#gallery .gallery_02 {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+#gallery .gallery_02_r {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+#gallery .gallery_03 {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+#gallery .gallery_03_r {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+#gallery .gallery_04 {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+#gallery .gallery_04_r {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+@media (max-width: 1024px) {
+  #gallery .gallery_01,
+  .gallery_02,
+  .gallery_03,
+  .gallery_04 {
+    display: block;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 50px 0;
+    justify-content: center;
+    text-align: center;
+  }
+}
