@@ -1,5 +1,5 @@
 <h1>About me</h1>
-뉴비입니다.
+<h2>&lt;&#47;&gt; 풀스택 개발 지망생</h2>
 <h3>Program</h3>
 <div><img src="https://img.shields.io/badge/vscode-007ACC.svg?style=for-the-badge&logo=visualstudiocode&logoColor=white" /> <img src="https://img.shields.io/badge/Notepad++-339933.svg?style=for-the-badge&logo=notepad%2b%2b&logoColor=white"></div>
 <br>
