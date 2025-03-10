@@ -1,7 +1,12 @@
 <h1>About me</h1>
 <p>Let's overcome the error!!</p> 
 
+
+
 <h2>${\textsf{\color{green}&lt;&#47;&gt;}}$ Aspiring Full-Stack Developer ${\textsf{\color{green}&lt;&#47;&gt;}}$</h2>
+
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=ger1071)](https://solved.ac/ger1071/)
+
 
 
 <h3>Code Editor</h3>
@@ -22,6 +27,7 @@
  <img src="https://img.shields.io/badge/React-31A8FF?logo=react&logoColor=white&style=for-the-badge" />
  
 <br>
+
 
  
 </div>
